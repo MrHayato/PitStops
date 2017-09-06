@@ -17,7 +17,6 @@ const enhance = compose<{ center: Coords }, any>(
     }),
 );
 export default enhance(({ center }) => {
-    // navigator.geolocation.getCurrentPosition()
     return (
         <GoogleMap center={center} zoom={7} />
     );
