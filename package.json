@@ -1,0 +1,52 @@
+{
+  "name": "pitstops",
+  "version": "1.0.0",
+  "description": "PitStops application",
+  "main": "src/index.tsx",
+  "scripts": {
+    "build": "webpack --config ./config/webpack.prod.js -p",
+    "dev": "webpack-dev-server --config ./config/webpack.dev.js",
+    "dev:dist": "http-server ./dist -p 9000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Willson Haw <willsonhaw@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/google-map-react": "^0.23.0",
+    "@types/prop-types": "^15.5.1",
+    "@types/react": "^16.0.5",
+    "@types/react-dom": "^15.5.4",
+    "@types/react-hot-loader": "^3.0.4",
+    "@types/react-redux": "^5.0.6",
+    "@types/recompose": "^0.24.1",
+    "@types/redux-logger": "^3.0.3",
+    "@types/webpack": "^3.0.10",
+    "@types/webpack-env": "^1.13.0",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "http-server": "^0.10.0",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "redux-freeze": "^0.1.5",
+    "redux-logger": "^3.0.6",
+    "source-map-loader": "^0.2.1",
+    "ts-loader": "^2.3.4",
+    "tslint": "^5.7.0",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.5.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "csstips": "^0.2.2",
+    "google-map-react": "^0.24.0",
+    "prop-types": "^15.5.10",
+    "react": "^16.0.0-beta.5",
+    "react-dom": "^16.0.0-beta.5",
+    "react-redux": "^5.0.6",
+    "recompose": "^0.25.0",
+    "redux": "^3.7.2",
+    "reselect": "^3.0.1",
+    "typestyle": "^1.4.0"
+  }
+}
